@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolo & Sabor</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="emoji">&#x1F370</h1>
+        <h1 id="titulo">Bolo <strong>&</strong> Sabor</h1>
+    </header>
+    <nav>
+        <a href="index.html"><button>Bolo simples</button></a>
+        <a href="pag2.html"><button>Bolo de chocolate</button></a>
+        <a href="#"><button>Bolo de morango</button></a>
+    </nav>
+    <main>
+        <h1 id="nomedobolo">Bolo simples</h1>
+        <div>
+            <img src="bolosimples.jpg" alt="Bolo">
+        </div>
+            <p>Um bolo simples fofinho e quentinho com uma xícara de café pode ser tudo o que você precisa numa tarde chuvosa. E essa aqui é a receita que pode dar isso para você. Essa receita é bem simples e não leva muitos ingredientes. A massa branca pode ser usada com recheios de diferentes sabores e irá combinar com todos, já que não tem nenhum sabor dominante mais forte. Há quem diga que a massa branca é "sem graça", mas se você quiser, pode incrementar o bolo com alguma cobertura de brigadeiro, beijinho, leite condensado para dar mais sabor e deixar o bolo ainda mais molhadinho. Com bastante cuidado e pré-aquecendo o forno antes de colocar ele para assar, você consegue evitar que o bolo sole. Confira como fazer essa receita de bolo simples, também conhecido como bolo de farinha de trigo. Ele cai muito bem com um café quentinho!</p>
+        <table>
+            <tr>
+                <th colspan="2">Ingredientes</th>
+            </tr> 
+            <tr>
+                <td>2 xícaras (chá) de açucar</td>
+                <td>3 xícaras (chá) de farinha de trigo</td>
+            </tr>
+            <tr>
+                <td>4 colheres (sopa) de margarina</td>
+                <td>3 ovos</td>
+            </tr>
+            <tr>
+                <td>1 e 1/2 xícara (chá) de leite</td>
+                <td>1 colher (sopa) bem cheia de fermento em pó</td>
+            </tr>
+        </table>
+        <h2>Modo de preparo</h2>
+        <ol>
+            <li>Bata as claras em neve e reserve.</li>
+            <li>Misture as gemas, a margarina e o açúcar até obter uma massa homogênea.</li>
+            <li>Acrescente o leite e a farinha de trigo aos poucos, sem parar de bater.</li>
+            <li>Por último, adicione as claras em neve e o fermento.</li>
+            <li>Despeje a massa em uma forma grande de furo central untada e enfarinhada.</li>
+            <li>Asse em forno médio 180 °C, preaquecido, por aproximadamente 40 minutos ou ao furar o bolo com um garfo, este saia limpo.</li>
+        </ol>
+    </main>
+</body>
+</html>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    color: #3C3C3C;
+}
+
+header {
+    background-color: #F8F1E5;
+    height: 110px;
+    padding: 10px;
+}
+
+#emoji {
+    text-align: center;
+    padding-right: 20px;
+}
+
+#titulo {
+    font-family: Bebas Neue, sans-serif;  
+    color: #505050;
+    text-shadow: 2px 1.5px 10px rgba(0, 0, 0, 0.205);
+    font-size: 45px;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+strong {
+    color: #ff9524;
+}
+
+nav {
+    background-color: #F8F1E5;
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    width: 150px;
+    border-radius: 5px;
+    border-color: #5C3C00;
+    font-weight: bolder;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.192);
+}
+
+main {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#nomedobolo {
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.192);
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    text-align: justify;
+}
+
+table {
+    margin-top: 10px;
+}
+
+th {
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(211, 211, 211);
+    color: #ff9524;
+    font-size: 18px;
+}
+
+h2 {
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(211, 211, 211);
+    padding: 1px 2px;
+    margin-top: 40px;
+    color: #ff9524;
+}
+
+ol {
+    padding-left: 23px;
+}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolo & Sabor</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="pag2style.css">
+</head>
+<body>
+    <header>
+        <h1 id="emoji">&#x1F370</h1>
+        <h1 id="titulo">Bolo <strong>&</strong> Sabor</h1>
+    </header>
+    <nav>
+        <a href="index.html"><button>Bolo simples</button></a>
+        <a href="pag2.html"><button>Bolo de chocolate</button></a>
+        <a href="#"><button>Bolo de morango</button></a>
+    </nav>
+    <main>
+        <h1 id="nomedobolo">Bolo de chocolate</h1>
+        <div>
+            <img src="bolodechocolate.jpg" alt="Bolo de chocolate">
+        </div>
+            <p>Um bolo simples fofinho e quentinho com uma xícara de café pode ser tudo o que você precisa numa tarde chuvosa. E essa aqui é a receita que pode dar isso para você. Essa receita é bem simples e não leva muitos ingredientes. A massa branca pode ser usada com recheios de diferentes sabores e irá combinar com todos, já que não tem nenhum sabor dominante mais forte. Há quem diga que a massa branca é "sem graça", mas se você quiser, pode incrementar o bolo com alguma cobertura de brigadeiro, beijinho, leite condensado para dar mais sabor e deixar o bolo ainda mais molhadinho. Com bastante cuidado e pré-aquecendo o forno antes de colocar ele para assar, você consegue evitar que o bolo sole. Confira como fazer essa receita de bolo simples, também conhecido como bolo de farinha de trigo. Ele cai muito bem com um café quentinho!</p>
+        <table>
+            <tr>
+                <th colspan="2" id="ingredientes">Ingredientes</th>
+            </tr> 
+            <tr>
+                <th>Massa</th>
+            </tr>
+            <tr>
+                <td>3 ovos</td>
+                <td>1 e 1/2 xícara (chá) de açucar</td>
+            </tr>
+            <tr>
+                <td>2 xícaras (chá) de farinha de trigo</td>
+                <td>1 xícara (chá) de chocolate em pó ou achocolatado</td>
+            </tr>
+            <tr>
+                <td>1/2 xícara (chá) de óleo</td>
+                <td>1 colher (sopa) de fermento em pó</td>
+            </tr>
+            <tr>
+                <td>1 pitada de sal</td>
+                <td>1 xícara (chá) de água quente</td>
+            </tr>
+            <tr>
+                <th>Cobertura</th>
+            </tr>
+            <tr>
+                <td>4 colheres (sopa) de leite</td>
+                <td>1/2 xícara (chá) de chocolate em pó</td>
+            </tr>
+            <tr>
+                <td>1 colher (sopa) de manteiga</td>
+                <td>1 xícara (chá) de açucar</td>
+            </tr>
+        </table>
+        <h2>Modo de preparo</h2>
+        <h3>Massa</h3>
+        <ol>
+            <li>Em um liquidificador, bata os ovos, o açúcar, o óleo, o achocolatado e a farinha de trigo.</li>
+            <li>Despeje a massa em uma tigela e adicione a água quente e o fermento, misturando bem.</li>
+            <li>Despeje a massa em uma forma untada e asse em forno médio-alto (200° C), preaquecido, por 40 minutos.</li>
+            <li>Desenforme ainda quente.</li>
+        </ol>
+        <h3>Cobertura</h3>
+        <ol>
+            <li>Em uma panela, leve todos os ingredientes ao fogo até levantar fervura.</li>
+            <li>Despeje ainda quente em cima do bolo.</li>
+        </ol>
+    </main>
+</body>
+</html>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    color: #3C3C3C;
+}
+
+header {
+    background-color: #F8F1E5;
+    height: 110px;
+    padding: 10px;
+}
+
+#emoji {
+    text-align: center;
+    padding-right: 20px;
+}
+
+#titulo {
+    font-family: Bebas Neue, sans-serif;  
+    color: #505050;
+    text-shadow: 2px 1.5px 10px rgba(0, 0, 0, 0.205);
+    font-size: 45px;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+strong {
+    color: #ff9524;
+}
+
+nav {
+    background-color: #F8F1E5;
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    width: 150px;
+    border-radius: 5px;
+    border-color: #5C3C00;
+    font-weight: bolder;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.192);
+}
+
+main {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#nomedobolo {
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.192);
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    text-align: justify;
+}
+
+table {
+    margin-top: 10px;
+}
+
+#ingredientes {
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(211, 211, 211);
+    color: #ff9524;
+    font-size: 18px;
+    text-align: center;
+}
+
+th {
+    text-align: left;
+    font-size: larger;
+}
+
+h2 {
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(211, 211, 211);
+    padding: 1px 2px;
+    margin-top: 40px;
+    color: #ff9524;
+}
+
+h3 {
+    margin-top: 20px;
+    color: #ff9524;
+}
+
+ol {
+    padding-left: 23px;
+}
